@@ -124,22 +124,24 @@ education:
 
 certificates:
   display: true
-  title: Certificates
+  title: Licenses and Certificates
   items:
-    - name: Course Foo
-      authority: Coursera
-      time: 2020
+    - name: Análise na Reta
+      authority: Instituto de Matemática Pura e Aplicada (IMPA)
+      time: 2021
       link:
-      details: |
-        It's my Course Foo certificate by coursera.
-    - name: Course Bar
+    - name: Mathematics for Machine Learning: Linear Algebra
       authority: Coursera
       time: 2020
-      link: https://www.google.com
+      link: https://coursera.org/share/7ebfd69c69f92ed1c1877b7b30a5873e
       details: |
+    - name: Python for Finance: Investment Fundamentals & Data Analytics Certificate
+      authority: Udemy
+      time: 2020
+      link: http://ude.my/UC-c03b136b-858a-4935-bb90-5deea7501035
 
 publications:
-  display: true
+  display: false
   title: Publications
   intro: |
     This is all the books I wrote.
@@ -155,7 +157,7 @@ publications:
       link:
 
 patents:
-  display: true
+  display: false
   title: Patents
   details: |
     This is all my patents.
@@ -165,10 +167,14 @@ languages:
   display: true
   title: Languages
   items:
-    - idiom: Chinese
+    - idiom: Portuguese
       level: Native
     - idiom: English
-      level: Professional
+      level: Bilingual
+    - idiom: German
+      level: Basic
+    - idiom: French
+      level: Basic
 
 interests:
   display: true
@@ -180,7 +186,7 @@ interests:
       link:
 
 evaluation:
-  display: true
+  display: false
   title: Self-evaluation
   details: |
     Here is my self evaluation.
