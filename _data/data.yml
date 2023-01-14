@@ -3,7 +3,7 @@ basic:
   title: Data Scientist
   avatar:
     display: true
-    path: profile.jpg
+    path: profile.png
 
 contact:
   location:
