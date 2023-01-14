@@ -177,7 +177,7 @@ languages:
       level: Basic
 
 interests:
-  display: true
+  display: false
   title: Resources
   items:
     - item: Periodic Papers Presentations Playlist
