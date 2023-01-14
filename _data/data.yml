@@ -27,15 +27,41 @@ contact:
 
 profile:
   display: true
-  title: Profile
+  title: About
   details: |
     I am a 21 years data scientist studying Economics at the University of Brasília, and at the same time study Statistics with the intention of acquiring it as a second diploma. On the side I am a independent research assistant in many Data-Oriented projects at different facilities. I build some interesting research projects and experiment with trending Artificial Intelligence content.
 
     In my free time i like to study Mathematics, History and solve the Rubik's Cube (current single-solve record: 15.06s). Some personal research interests are Time Series Models, Natural Language Processing and Computer Vision. I also like to study languages (currently learning German).
 
+education:
+  display: true
+  title: Education
+  items:
+    - university: Example University
+      time: 2015 - 2018
+      major: Machine Learning
+      degree: Master
+      details: |
+        Experience in this university:
+        + First
+        + Second
+
+        ...
+
+    - university: Example University
+      time: 2011 - 2015
+      major: Computer Science
+      degree: Bachelor
+      details: |
+        Experience in this university:
+        + First
+        + Second
+
+        ...
+
 experiences:
   display: true
-  title: Experiences
+  title: Research Facilities
   items:
     - role: Backend Developer
       time: 2018.03 - 2019.03
@@ -96,32 +122,6 @@ skills:
     - name: Skill C
       level: 70
 
-education:
-  display: true
-  title: Education
-  items:
-    - university: Example University
-      time: 2015 - 2018
-      major: Machine Learning
-      degree: Master
-      details: |
-        Experience in this university:
-        + First
-        + Second
-
-        ...
-
-    - university: Example University
-      time: 2011 - 2015
-      major: Computer Science
-      degree: Bachelor
-      details: |
-        Experience in this university:
-        + First
-        + Second
-
-        ...
-
 certificates:
   display: true
   title: Licenses and Certificates
@@ -178,12 +178,11 @@ languages:
 
 interests:
   display: true
-  title: Interests
+  title: Resources
   items:
-    - item: Reading
-      link:
-    - item: Cooking
-      link:
+    - item: Periodic Papers Presentations Playlist
+      link: https://www.youtube.com/playlist?list=PLB3lu5t_haVrJbX7pcBLIdpnHMn8SskLF
+      details: Programa de Educação Tutorial meets twice a week so a member can present an interesting paper found by them and was written by another author.
 
 evaluation:
   display: false
